@@ -3,8 +3,6 @@ import { getAnalytics } from 'firebase/analytics';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
-// Firebase project configuration
-// Credentials provided by project owner
 const firebaseConfig = {
   apiKey: 'AIzaSyAzzk8_MHN0cg5GPY60EbApTzofxt38G7s',
   authDomain: 'the-f495a.firebaseapp.com',
