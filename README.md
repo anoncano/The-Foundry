@@ -16,6 +16,11 @@ Binary image assets were removed in favour of an SVG icon to avoid large diffs o
    npm start
    ```
 
+
+## Service Account Setup
+
+Some server-side tools require a Firebase service account. Create one in the Firebase console, download the JSON key, and save it as `serviceAccount.json` (this file is ignored by git). Alternatively, set the key contents via the `FIREBASE_SERVICE_ACCOUNT` environment variable.
+
 ## Project Structure
 
 - `webapp/` – React app using TypeScript
